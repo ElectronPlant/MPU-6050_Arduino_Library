@@ -4,11 +4,17 @@
 MPU Library
 ---------------
  The library aims to simplify the use of the MPU-6050 sensor by including all the basic functionality such us:
+ 
      +) Initialization.
+	 
      +) Self-test.
+	 
      +) Calibration.
-     +) Retrieving the data from the sensor.
+	 
+     +) Retrieving the data from the sensor
+	 .
 	 +) Simplified Kalman Filer to calculate the angle.
+	 
 	 
 (It uses millis() for the timeout --> check if the timers are modified)
  
