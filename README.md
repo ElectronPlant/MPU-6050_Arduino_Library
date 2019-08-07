@@ -5,15 +5,15 @@ MPU Library
 ---------------
  The library aims to simplify the use of the MPU-6050 sensor by including all the basic functionality such us:
  
-     +) Initialization.
+ +) Initialization.
 	 
-     +) Self-test.
+ +) Self-test.
 	 
-     +) Calibration.
+ +) Calibration.
 	 
-     +) Retrieving the data from the sensor
-	 .
-	 +) Simplified Kalman Filer to calculate the angle.
+ +) Retrieving the data from the sensor.
+	 
+ +) Simplified Kalman Filer to calculate the angle.
 	 
 	 
 (It uses millis() for the timeout --> check if the timers are modified)
@@ -32,7 +32,9 @@ https://github.com/kriswiner/MPU6050/blob/master/MPU6050BasicExample.ino
 Repository contents:
 --------------------
 
- +) Source file: "mpu_6050_library.cpp"
- +) Header file: "mpu_6050_library.has"
- +) Test file: "mpu_test.ino"
+ +) Source file: "mpu_6050_library.cpp".
+ 
+ +) Header file: "mpu_6050_library.has".
+ 
+ +) Test file: "mpu_test.ino".
 
